@@ -22,6 +22,7 @@ figure{
 figure > img{
     width: 382px;
     height: 100%;
+    -webkit-user-drag: none;
 }
 
 
