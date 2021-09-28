@@ -14,7 +14,7 @@ body {
     min-height: 945px;
     height: auto;
     width: 100%;
-    padding-bottom: 32px;
+    padding-bottom: 15px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 footer{
-    margin-top: 100px;
+    margin-top: 15px;
 
     width: 100%;
   
