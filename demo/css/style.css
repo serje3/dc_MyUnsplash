@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    background: black;
+}
+
+body {
+    background: #FFFFFF;
+    border-radius: 24px;
+    position: absolute  ;
+    box-sizing: border-box;
+    min-height: 945px;
+    height: auto;
+    width: 100%;
+    padding-bottom: 32px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar-track {
+    background: none;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 5px;
+  }
+
+.wrapper{
+    display: block;
+    height: 100%;
+    width: 1242px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.window__wrapper{
+    display: block;
+    position: absolute;
+    z-index: 100;
+    background: rgba(0,0,0, 0.5);
+    height: 100%;
+    width: 100%;
+
+}
+
+@media (max-width: 1242px) {
+    body{
+        border-radius: 0;
+    }
+    .wrapper{
+        width: 95%;
+    }
+}

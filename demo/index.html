@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./img/devchallenges.png"/>
+    
+    <title>Unsplash by Serje3</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/images.css" />
+    <link rel="stylesheet" href="css/add_photo.css">
+    <link rel="stylesheet" href="css/enter_password.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@500;700;800&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <div class="window__wrapper" style="display: none;">
+        <div class="add_photo_card">
+            <div class="title__card">Add a new photo</div>
+            <div class="label__card">
+                <div class="text__label">Label</div>
+                <input type="text" class="input__label" placeholder="Suspendisse elit massa"/>
+            </div>
+            <div class="url__card">
+                <div class="text__url">Photo URL</div>
+                <input type="text" class="input__url" placeholder="https://images.unsplash.com/photo-1584395630827-860eee694d7b?ixlib=r..."/>
+            </div>
+            <input type="submit" class="submit__card" value="Submit">
+            <div class="cancel__card">Cancel</div>
+        </div>
+    </div>
+
+    <div class="window__wrapper" style="display: none;">
+        <div class="enter_password_card">
+            <div class="title__card_1">Are you sure?</div>
+
+            <div class="password__card">
+                <div class="text__password">Password</div>
+                <input type="password" class="input__password" placeholder="******************">
+            </div>
+
+            <input type="submit" class="delete__card" value="Delete">
+            <div class="cancel__card_1">Cancel</div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="wrapper__header">
+            <div class="logo__header">
+                <div class="img__logo">
+                    <div class="top__logo"></div>
+                    <div class="bottom__logo"></div>
+                </div>
+                <div class="text__logo">
+                    <div class="top_text__logo">My Unsplash</div>
+                    <div class="bottom_text__logo">devchallenges.io</div>
+                </div>
+            </div>
+            <div class="search__header">
+                <img src="./img/svg/search_black_24dp.svg" alt="search" class="img__search">
+                <input type="text" class="input__search" placeholder="Search by name"/>
+            </div>
+
+            <div class="add__header">Add a photo</div>
+        </div>
+        </div>
+        <div class="images">
+            <div class="col">
+                <figure>
+                    <div class="pre_img">
+                        <div class="text__pre">Mercedes</div>
+                        <div class="delete__pre">delete</div>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" alt="1">
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="1">
+                </figure>
+            </div>
+            <div class="col">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="1">
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80" alt="1">
+                </figure>
+            </div>
+            <div class="col">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="1">
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1550615162-30dcc978d172?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" alt="1">
+                </figure>
+ 
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

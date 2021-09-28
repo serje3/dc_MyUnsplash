@@ -1,0 +1,137 @@
+
+.add_photo_card{
+    position: fixed;
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 552px;
+    height: 319px;
+
+    padding-top: 24px;
+    padding-left: 32px;
+    padding-bottom: 24px;
+    padding-right: 36px;
+
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+}
+
+.title__card{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #333333;
+
+    user-select: none;
+
+}
+
+.label__card{
+    position: absolute;
+    top: 78px;
+}
+
+.url__card{
+    position: absolute;
+    top: 180px;
+}
+
+.text__url, .text__label{
+    margin-bottom: 10px;
+
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #4F4F4F;
+
+    user-select: none;
+}
+
+.input__label, .input__url{
+    
+    width: 552.33px;
+    height: 55px;
+    padding-left: 18px;
+
+    border: 1px solid #4F4F4F;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 1px 6px rgba(78, 59, 59, 0.1));
+    border-radius: 12px;
+
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.input__label::placeholder, .input__url::placeholder{
+    color: #BDBDBD;
+    user-select: none;
+}
+
+
+.submit__card{
+    position: absolute;
+    width: 105px;
+    height: 55px;
+
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    background: #3DB46D;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+    filter: drop-shadow(0px 4px 10px rgba(61, 180, 109, 0.2));
+
+
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    top: 288px;
+    left: 480px;
+
+    user-select: none;
+
+}
+
+.cancel__card{
+    position: absolute;
+    left: 403px;
+    top: 303px;
+
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #BDBDBD;
+
+    user-select: none;
+    cursor: pointer;
+}
