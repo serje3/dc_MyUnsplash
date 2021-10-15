@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    background: black;
+}
+
+body{
+    position: absolute;
+
+    background: #FFFFFF;
+    border-radius: 24px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    padding-bottom: 15px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    user-select: none;
+
+}
+
+
+::-webkit-scrollbar-track {
+    background: none;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 5px;
+  }
+
+.wrapper{
+    display: block;
+    height: 100%;
+    min-height: 100vh;
+    width: 1242px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.window__wrapper{
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    background: rgba(0,0,0, 0.5);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: visibility 300ms, opacity 300ms;
+
+}
+
+.appear{
+    visibility: visible!important;
+    opacity: 1!important;
+    transition: visibility 300ms, opacity 300ms;
+}
+
+.card{
+    position: fixed;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 24px 36px 24px 32px;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    width: 552px;
+}
+
+
+.title__card{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #333333;
+
+    user-select: none;
+
+}
+
+.hr__footer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+footer{
+    position: relative;
+    width: inherit;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0;
+    text-align: center;
+    color:#A9A9A9;
+    bottom: 0;
+    /*place to center*/
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+footer > .div__footer{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+
+
+}
+  
+  .username__footer{
+    color:inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+@media (max-width: 1304px) {
+    body{
+        border-radius: 0;
+    }
+    .wrapper{
+        width: 95%;
+    }
+}

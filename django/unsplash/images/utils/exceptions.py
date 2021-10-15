@@ -1,0 +1,2 @@
+class ImageModelException(Exception):
+    pass

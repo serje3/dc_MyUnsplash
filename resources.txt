@@ -1,0 +1,2 @@
+JWT Auth - https://django.fun/tutorials/registraciya-i-avtorizaciya-polzovatelej-v-django-s-pomoshyu-djoser-i-veb-tokenov-json/
+
