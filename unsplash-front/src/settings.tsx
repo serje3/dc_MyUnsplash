@@ -1,4 +1,4 @@
-const API_URL = ""
+const API_URL = "https://151-248-121-170.cloudvps.regruhosting.ru"
 export const settings = {
     API: {
         IMAGE:{
