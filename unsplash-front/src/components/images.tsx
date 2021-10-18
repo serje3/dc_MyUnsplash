@@ -7,11 +7,6 @@ import {ColumnCount} from "../utils/enums/columnCountEnum";
 
 
 export class Images extends React.Component<IImagesProps> {
-    constructor(props: PropsWithChildren<any>) {
-        super(props);
-
-
-}
 
     getStyles = (): CSSProperties => {
         return {

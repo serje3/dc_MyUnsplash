@@ -1,9 +1,9 @@
-const API_URL = "http://localhost:8000"
+const API_URL = ""
 export const settings = {
     API: {
         IMAGE:{
             REQUEST: {
-                url: API_URL+'/api/image',
+                url: API_URL+'/api/v2/image',
                 body: {
                     POST: [
                         'label', 'img_url', 'img_file'
@@ -11,7 +11,7 @@ export const settings = {
                 }
             },
             DELETE: {
-                url: API_URL + '/api/image/delete/',
+                url: API_URL + '/api/v2/image/delete/',
                 kwargs: ['pk']
             }
         },

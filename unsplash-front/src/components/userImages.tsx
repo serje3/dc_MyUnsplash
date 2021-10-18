@@ -1,4 +1,4 @@
-import React, {ReactNode, ReactNodeArray} from "react";
+import React, {ReactNodeArray} from "react";
 import APIImages from '../api/imageAPI'
 import {ImageResponseBody} from "../utils/interfaces";
 import APIUser from "../api/authAPI";
@@ -53,15 +53,6 @@ export default class UserImages extends React.Component<
         this.setState({images})
         this.props.saveImage(images)
     };
-
-    // public addImage = (label:string, url:string): void =>{
-    //     this.imagesClient.postImage({label:label, img_url: url}, console.log.bind(this, "postImage"))
-    // }
-
-    // public deleteImage = (label:string, url: string) => {
-    //     this.imagesClient.deleteImage({label:label, img_url: url}, console.log.bind(this, "deleteImage"))
-    // }
-
 
     render() {
         return false

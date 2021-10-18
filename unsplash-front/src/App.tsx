@@ -1,4 +1,4 @@
-import React, {Dispatch, ReactNode, SetStateAction, useState} from 'react';
+import React, {Dispatch, SetStateAction, useState} from 'react';
 import './css/style.css'
 import './css/add_photo.css'
 import './css/enter_password.css'
@@ -13,7 +13,6 @@ import LoginForm from "./components/forms/loginForm";
 import {useMediaPredicate} from "react-media-hook";
 import UserImages from "./components/userImages";
 import APIUser from "./api/authAPI";
-import {parseImageListResponse} from "./utils/parsers";
 import {WhiteSpaceArea} from "./components/whiteSpaceArea";
 
 const UserAPI = new APIUser()
