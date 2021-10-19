@@ -1,4 +1,5 @@
 <!-- Please update value in the {}  -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec5fe883-abb3-4b34-9a7a-72de4e8b1ecd/deploy-status)](https://app.netlify.com/sites/serje3-unsplash-clone/deploys)
 
 <h1 align="center">Unsplash clone by serje3</h1>
 
@@ -37,7 +38,8 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/serje3/dc_MyUnsplash/master/demo/img/preview_git.gif)
+![screenshot](https://raw.githubusercontent.com/serje3/dc_MyUnsplash/master/demo/img/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202021-09-28%2020-56-38.png)
+![screenshot](https://raw.githubusercontent.com/serje3/dc_MyUnsplash/master/demo/img/preview.gif)
 
 The site is located on the domain https://serje3-unsplash-clone.netlify.app
 
