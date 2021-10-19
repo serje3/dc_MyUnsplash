@@ -36,7 +36,7 @@ export default class APIUser extends APIBase{
     }
 
     public loginUser(username: string, password: string): JQuery.jqXHR{
-        console.log('login: ', username)
+        // console.log('login: ', username)
         return this.sendRequest(settings.API.AUTH.JWT_CREATE.url, "POST", {
             username:username,
             password:password
@@ -58,7 +58,9 @@ export default class APIUser extends APIBase{
             username:username,
             password:password
         }, {
-
+            headers:{
+                'X-CSRFToken': Cookies.get('csrftoken'),
+            }
         })
             .done((response)=>{
                 this.loginUser(username, password)
