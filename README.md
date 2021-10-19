@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://serje3-unsplash-clone.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/serje3/dc_MyUnsplash">
       Solution
     </a>
     <span> | </span>
@@ -37,22 +37,20 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/serje3/dc_MyUnsplash/master/demo/img/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202021-09-28%2020-56-38.png)
+![screenshot](https://raw.githubusercontent.com/serje3/dc_MyUnsplash/master/demo/img/preview_git.gif)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+The site is located on the domain https://serje3-unsplash-clone.netlify.app
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+Written in React using ajax requests to the server with the Django REST Framework.
+For the authorization and authentication process using JWT tokens, the python djoser library was used.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Django](https://www.djangoproject.com/)
+- [DRF](https://www.django-rest-framework.org/)
 
 ## Features
 
@@ -64,11 +62,16 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- Example: -->
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)), [Python 3.8+](https://www.python.org/) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/serje3/dc_MyUnsplash.git
+```
+
+### React
+```bash
+# in directory unsplash-front
 
 # Install dependencies
 $ npm install
@@ -76,17 +79,30 @@ $ npm install
 # Run the app
 $ npm start
 ```
+### Django
+```bash
+# in directory django/
+$ python -m venv venv
+$ source venv/bin/activate
+
+$ pip install -r requirements.txt
+
+$ cd unsplash/
+
+$ python manage.py makemigrations
+$ python manage.py migrate
+
+$ python manage.py runserver
+
+```
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [JWT Token Authorizations (RUS)](https://django.fun/tutorials/registraciya-i-avtorizaciya-polzovatelej-v-django-s-pomoshyu-djoser-i-veb-tokenov-json/)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@serje3](https://github.com/serje3})
+- Telegram [@serJAYY](https://telegram.org/)
